@@ -1,0 +1,12 @@
+Comando para crear el proyecto de django:
+django-admin startproject nombreproyecto
+
+Comando para crear una aplicacion, ubicado dentro del proyecto creado anteriormente
+django-admin startapp nombreaplicacion
+
+El paso siguiente es dar de alta la aplicación en el archivo settings.py en el apartado DINSTALLED_APPS
+
+Dentro de la aplicacion hay que crear el archivo urls.py para crear las url de esa app en particular
+
+PARA CORRER EL SERVIDOR:
+python .\manage.py runserver
